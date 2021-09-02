@@ -28,5 +28,10 @@ public class Substring {
 
         System.out.println("This is all about String Method");
 
+        String x = "I love Java";
+
+        String sub = x.substring(x.indexOf(" "), x.indexOf(" ", x.indexOf(" ")+1)  );
+        System.out.println(sub);
+
     }
 }
