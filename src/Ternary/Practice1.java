@@ -7,8 +7,12 @@ public class Practice1 {
         int num1 = 5;
         int num2 = 5;
         int num3 = 6;
+        double money = 100;
 
        int result1 = num1 == num2  ?  30 : 25 ;
+
+
+
         System.out.println("Result 1 is >> "+result1);
 
         String result2 = num1 == num3  ? "Hello" : "Bye" ;
@@ -18,5 +22,8 @@ public class Practice1 {
 
         int result3 =   num1 == num3 ? num1++ + num2++ : num3++ + num3;
         System.out.println(result3);
+        double result4 =   num1 == num3 ? money : num3++ + num3;
+        System.out.println(result4);
+
     }
 }
