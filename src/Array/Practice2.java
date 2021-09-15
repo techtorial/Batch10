@@ -5,9 +5,11 @@ import java.util.Arrays;
 public class Practice2 {
     public static void main(String[] args) {
 
-
+        int[] xyz = new int[7];
         int[] zipCodes = {123,456,234};
 
+        System.out.println(zipCodes[1]);// 456
+        String[] data = {"J", "K"};
 
         System.out.println(zipCodes.length);
         System.out.println(zipCodes[0]);
