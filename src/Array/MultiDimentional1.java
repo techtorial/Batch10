@@ -12,7 +12,7 @@ public class MultiDimentional1 {
         numbers[0][1] = 22;
         numbers[0][2] = 33;
         numbers[0][3] = 44;
-        numbers[2][3] = 99;
+        numbers[2][3] = 99; // [[11, 22, 33, 44], [0, 0, 0, 0], [0, 0, 0, 99]]
       //  numbers[3][0] = 111; //ArrayIndexOutOfBoundsException
         System.out.println(numbers[0][0]); // 11
         System.out.println(numbers);
@@ -21,7 +21,7 @@ public class MultiDimentional1 {
 
         System.out.println(Arrays.toString(numbers));// toString() method will print out hash code for multidimensional array
         System.out.println(Arrays.deepToString(numbers));// [[11, 22, 33, 44], [0, 0, 0, 0], [0, 0, 0, 99]]
-
+        numbers[2][3] = 111;
         for (int i=0;i<numbers.length;i++){
 
             for (int j=0; j< numbers[i].length ;j ++ ){
@@ -30,5 +30,20 @@ public class MultiDimentional1 {
             }
 
         }
+        for (int[] array : numbers ){
+
+            for (int number  : array){
+                System.out.println("*"+ number);
+            }
+
+        }
+
+
+
+
+
+
+
+
     }
 }
