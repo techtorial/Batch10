@@ -1,5 +1,7 @@
 package Object;
 
+import Methods.Math;
+
 public class AnimalTest {
 
     public static void main(String[] args) {
@@ -11,7 +13,7 @@ public class AnimalTest {
         System.out.println(cat.name);
 
         cat.age = 5;
-        cat.weight= 8.5;
+        cat.weight = 8.5;
         cat.legNumber = 4;
 
         System.out.println(cat.age);
@@ -22,8 +24,8 @@ public class AnimalTest {
 
         Animal dog = new Animal();
         System.out.println(dog.name);
-        dog.name="Max";
-        dog.age=6;
+        dog.name = "Max";
+        dog.age = 6;
         dog.weight = 10.2;
         dog.legNumber = 4;
 
@@ -34,12 +36,39 @@ public class AnimalTest {
 
         System.out.println(bird.weight);
 
-        cat.run();
-        dog.run();
+       // cat.run();
+        dog.run("west");
 
         cat.sleep();
         dog.sleep();
         bird.sleep();
+
+        cat.printInfo();
+        bird.printInfo();
+        bird.legNumber=2;
+        bird.printInfo();
+
+        System.out.println("==============");
+        cat.printInfo();
+        cat.energy=100;
+        cat.printInfo();
+        cat.run("Up");
+        cat.printInfo();
+        cat.run("South");
+        cat.run("Down Stairs");
+        cat.printInfo();
+        cat.sleep();
+        cat.printInfo();
+
+        //===============
+
+        bird.energy=100;
+        bird.sleep();
+        bird.run("in to air");
+
+        Math obj1 = new Math();
+
+        obj1.sum(1,1);
 
 
     }
