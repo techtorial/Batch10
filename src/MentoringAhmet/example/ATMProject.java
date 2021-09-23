@@ -1,4 +1,4 @@
-package MentoringAhmet;
+package MentoringAhmet.example;
 
 import java.util.Scanner;
 
