@@ -17,10 +17,6 @@ public class StaticPracticePet {
         System.out.println("Cat is running");
     }
 
-
-
-
-
     public static void main(String[] args) {
 
         StaticPracticePet cat = new StaticPracticePet();
