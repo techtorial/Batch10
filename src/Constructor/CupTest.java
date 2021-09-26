@@ -24,10 +24,16 @@ public class CupTest {
 
         c1 = null;
 
+        c4 = c1;
+
 
         System.out.println(c1);
+        System.out.println(c4);
 
-
+        Cup c5 = new Cup(22, false);
+        Cup c6 = new Cup(16, true, 12);
+        c5 = null;
+        c6=null;
         System.gc();
 
 
