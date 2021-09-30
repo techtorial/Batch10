@@ -1,6 +1,6 @@
 package Object;
 
-public class Animal {
+public class Animal  {
 
     String name = "Jerry";
     public int age;
@@ -32,5 +32,16 @@ public class Animal {
         System.out.println("Name is: " + name + " Age is: " + age + " weight is : " + weight
                 + " LegNumber is: " + legNumber + " Energy is: " + energy);
 
+    }
+    // We need to say same animal if weight and name and age is same
+
+
+    public  boolean equals(Animal animal1,Animal animal2){
+        boolean isAnimalSame= animal1.age== animal2.age&&
+                animal1.name.equals(animal2.name)&&animal1.weight== animal2.weight;
+       return isAnimalSame;
+    }
+    public Animal createAnimal( ){
+        return  new Animal();
     }
 }

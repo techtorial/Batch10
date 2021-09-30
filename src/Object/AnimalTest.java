@@ -2,7 +2,9 @@ package Object;
 
 import Methods.Math;
 
-public class AnimalTest {
+import java.util.Scanner;
+
+public class AnimalTest extends Animal {
 
     public static void main(String[] args) {
 
@@ -70,6 +72,13 @@ public class AnimalTest {
 
         obj1.sum(1,1);
 
-
+        System.out.println(dog.equals(dog,cat));
+    }
+    public Object createObject(){
+        return  new Scanner(System.in);
+    }
+    @Override
+    public Animal createAnimal( ){
+        return new AnimalTest();
     }
 }
