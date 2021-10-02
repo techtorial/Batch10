@@ -1,5 +1,6 @@
 package MentoringAhmet.InterviewQuestion;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -30,6 +31,10 @@ public class InterviewQuestion {
         name.add("Adel");
         name.add("kana");
         name.add("Bota");
+        ArrayList<Integer> number1=new ArrayList<>();
+        int age =25;
+        number1.add(age);//autoboxing=  you do not need to use any methods
+        String number3=String.valueOf(age);//unboxing you need to use methods.
 
         System.out.println(name);
         //create a method and void sout the name(if it is there)
