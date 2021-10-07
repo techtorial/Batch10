@@ -26,6 +26,7 @@ public class MultipleData {
         int k=1; byte r=2; short m=3;
 
 
+
     }
 
 }

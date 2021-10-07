@@ -46,6 +46,43 @@ public class StudentInfo {
 
         System.out.println(studentList);
 
+        // if student's city is 'Chicago' create an email address as 'name+chicago@gmail.com'
+
+
+        for (int i=0; i < studentList.size(); i++){
+
+            if (  studentList.get(i).get("City").equals("Chicago")     ){
+
+                System.out.println(    studentList.get(i).get("FirstName").concat("Chicago@gmail.com")     );
+            }
+
+        }
+
+
+        System.out.println("=========================================");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         // if student's age is less than 20 show their name
 
