@@ -34,7 +34,7 @@ superMarket.allproductAndPricesPrint();
     //TASK 1:
     //  Create three more arrays to store the prices for these products.
     //dairyPrice :  2.99, 1.99, 3.99, 2.49, 0.99, 1.69,
-    double[] dairyPrice ={2.99, 1.99, 3.99, 2.49, 0.99, 1.69};
+    double[] dairyPrice ={2.99, 1.99, 2.49, 0.99, 1.69};
     //chipsPrice :  3.99,  2.99,  4.99,  3.49,  1.99,  2.69,
     double[] chipsPrice ={3.99,  2.99,  4.99,  3.49,  1.99,  2.69};
 //cookiesPrice: 4.99,  3.99,  5.99,  4.49,  2.99,  3.69,
