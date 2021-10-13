@@ -87,6 +87,7 @@ public class Practice {
         builder2.insert(1,"$$$");
         System.out.println(builder2);
 
+
         int[] nums = {1,2,3};
         builder2.insert(builder2.indexOf("t"), Arrays.toString(nums));
         System.out.println(builder2);
