@@ -1,6 +1,6 @@
 package OOP.Inheritance3;
 
-public class TShirt extends Shirt{
+ public final class TShirt extends  Shirt{
     String color;
     public TShirt(){
         super("M", 25);

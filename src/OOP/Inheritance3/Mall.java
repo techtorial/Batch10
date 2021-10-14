@@ -17,6 +17,7 @@ public class Mall {
         System.out.println(tShirt1.COLOR);
         System.out.println(tShirt.color);
 
+        shirt.info();
 
     }
 }
