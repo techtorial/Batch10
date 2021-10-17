@@ -1,6 +1,8 @@
 package MentoringAhmet.InterviewQuestion;
 
-public class AlphaCharacters {
+import MentoringAhmet.MapPracticeWithList.Parent;
+
+public class AlphaCharacters  {
     //print out only alphabetic characters,
     //print out only digit characters,
     //print out only symbols(other characters)
@@ -8,6 +10,7 @@ public class AlphaCharacters {
 
 //i need to reach out each of the letters
 public static void main(String[] args) {
+
     String given="ertwsFADSF::IJ67585498testtest8732484375efds*&(&*^)5%^";
     String OnlyAlphabets="";
     String OnlyDigits="";
