@@ -1,6 +1,12 @@
 package RecapJavaWithAhmet.ObjectAndMethod;
 
-public class ObjectMethod {
+import RecapJavaWithAhmet.Abstract;
+
+public class ObjectMethod  extends Abstract {
+    @Override
+    public void name() {
+
+    }
 
     //INTERVIEW QUESTIONS FROM FACEBOOK : OBJECT : is the parent of all classes which are
     //the blue print of the the object.it has some behaviours.

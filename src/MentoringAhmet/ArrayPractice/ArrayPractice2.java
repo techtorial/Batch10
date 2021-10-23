@@ -19,9 +19,9 @@ public class ArrayPractice2 {
             for(int k=words[i].length()-1;k>=0;k-- ){
                 reverse+=words[i].charAt(k);
             }
-            System.out.println(reverse.charAt(0));
-            System.out.println(reverse.charAt(reverse.length()-1));
-            System.out.println(reverse);
+          //  System.out.println(reverse.charAt(0));
+          //  System.out.println(reverse.charAt(reverse.length()-1));
+            System.out.print(reverse+",");
 
         }
 

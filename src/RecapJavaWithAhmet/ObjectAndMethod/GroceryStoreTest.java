@@ -5,6 +5,7 @@ public class GroceryStoreTest {
         GroceryStore Houston = new GroceryStore(534,0.99,429,0.87);
         GroceryStore Seattle = new GroceryStore();
 
+
 //        Houston.appleSoldYearly=534;
 //        Houston.retailPriceOfApple=0.99;
 //        Houston.orangeSoldYearly=429;

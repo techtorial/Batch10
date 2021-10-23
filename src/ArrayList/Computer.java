@@ -36,8 +36,7 @@ public class Computer {
         }
 
     }
-    public  void findComputer1(ArrayList<Computer> list){
-
+    public void findComputer1(ArrayList<Computer> list){
         for (int i=0; i< list.size(); i++){
 
             if (list.get(i).price >=500 && list.get(i).price <=1500){
@@ -45,6 +44,5 @@ public class Computer {
                 System.out.println(list.get(i).make);
             }
         }
-
     }
 }

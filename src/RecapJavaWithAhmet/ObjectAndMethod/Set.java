@@ -1,9 +1,14 @@
 package RecapJavaWithAhmet.ObjectAndMethod;
 
+import RecapJavaWithAhmet.Abstract;
+import RecapJavaWithAhmet.AbstractInterface;
+import RecapJavaWithAhmet.AnotherInferface;
+
 import java.util.HashSet;
 import java.util.TreeSet;
 
-public class Set {
+public class Set extends Abstract implements AbstractInterface, AnotherInferface {
+
     //POSSIBLE INTERVIEW QUESTIONS:
     //1) HOW CAN YOU MAKE THE ELEMENTS UNIQUE WITH COLLECTION?
     //2)CAN YOU TELL ME THE TYPES OF COLLECTION
@@ -20,5 +25,15 @@ public class Set {
         HashSet<String> set1 = new HashSet<>();
 
 
+    }
+
+    @Override
+    public void name() {
+
+    }
+
+    @Override
+    public void name1() {
+        AbstractInterface.super.name1();
     }
 }
